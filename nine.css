@@ -1,0 +1,50 @@
+
+  #cf img {
+    position:absolute;
+   margin-left: 40px;
+    height: 400px;
+    width: 400px;
+    transition: all 1s ease-in-out;
+  }
+  
+  #cf img.top:hover {
+    opacity:0;
+    transform: translate(123px,123px);
+  }
+  #bf img{
+      margin-left: 700px;
+      height: 400px;
+      width: 400px;
+      transition: all 1s ease-in-out;
+  }
+  #bf img:hover {
+    height: 500px;
+    width: 500px;
+    transform: rotate(45deg);
+  }
+  
+  #gf img.first{
+      float: left;
+      margin-left: 40px;
+    height: 400px;
+    width: 400px;
+    transition: all 1s ease-in-out;
+}
+
+#gf img.first:hover {
+  height: 500px;
+  width: 500px;
+  border-radius: 250px;
+}
+#gf img.second{
+    margin-right: 150px;
+    float: right;
+    height: 400px;
+    width: 400px;
+    transition: all 1s ease-in-out;
+}
+/* on pressing left mouse  */
+#gf img.second:active{
+  opacity:0.3;
+transform: skew(30deg);
+}
